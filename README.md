@@ -6,8 +6,8 @@
 Generative art algorithm based on quadtree generalization that breaks polygon apart as if cracks appeared on them.
  
  ### Results Examples:
- ![Image 1](./082d2863e2.png)
- ![Image 2](./dbd465d1e9.png)
+ ![Image 1](./readme_images/082d2863e2.png)
+ ![Image 2](./readme_images/dbd465d1e9.png)
 
  
 
@@ -112,7 +112,7 @@ draws the polygon
 
 by casting a line from the point and counting the number of edges intersected, it is possible to understand if a point is inside a polygon.
      If the number of intersection is odd, in fact, it is quite obvious that the point is inside a polygon
-     ![polygon](./polygon_intersects.png)
+     ![polygon](./readme_images/polygon_intersects.png)
 ### Inputs
 - Point point: point used for the check;
 

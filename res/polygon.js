@@ -123,7 +123,7 @@ class Polygon {
     @brief: returns whether the polygon contains a point
     @notes: by casting a line from the point and counting the number of edges intersected, it is possible to understand if a point is inside a polygon.
     If the number of intersection is odd, in fact, it is quite obvious that the point is inside a polygon
-    ![polygon](./polygon_intersects.png)
+    ![polygon](./readme_images/polygon_intersects.png)
     @inputs: 
     - Point point: point used for the check;
     @outputs: 
